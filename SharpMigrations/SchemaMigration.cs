@@ -23,6 +23,7 @@ namespace SharpMigrations {
                 fc.Object.IsAutoIncrement = true;
                 return fc;
             }
+            public static FluentColumn AnsiString(string name) { return SColumn.AnsiString(name); }
             public static FluentColumn String(string name) { return SColumn.String(name); }
             public static FluentColumn String(string name, int size) { return SColumn.String(name, size); }
             public static FluentColumn Clob(string name) { return SColumn.Clob(name); }
