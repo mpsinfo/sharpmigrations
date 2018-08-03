@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>2.0.0</Version>
     <Description>Sharp migrations is a framework to help you deal with database changes and versioning over time. The idea comes from the excellent Ruby on Rails migrations and it is the best way to alter your database in a structured and organised manner.</Description>

@@ -1,4 +1,4 @@
-﻿using Sharp.Data;
+﻿using SharpData;
 using Xunit;
 
 namespace SharpMigrator.Tests {
