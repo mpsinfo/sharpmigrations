@@ -36,7 +36,8 @@ namespace SharpMigrations {
             }
             public static FluentColumn Binary(string name) { return SColumn.Binary(name); }
             public static FluentColumn Date(string name) { return SColumn.Date(name); }
-            public static FluentColumn Decimal(string name) { return SColumn.Decimal(name); }
+            public static FluentColumn DateTime(string name) { return SColumn.DateTime(name); }
+            public static FluentColumn Decimal(string name, int precision = -1) { return SColumn.Decimal(name, precision); }
             public static FluentColumn Single(string name) { return SColumn.Single(name); }
             public static FluentColumn Double(string name) { return SColumn.Double(name); }
             public static FluentColumn Guid(string name) { return SColumn.Guid(name); }
